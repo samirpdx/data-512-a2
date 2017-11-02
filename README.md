@@ -29,12 +29,13 @@ To obtain this data, I used the following link to download the zipped data file:
 
 To obtain this data, I used the following link to download the data file:
 
-    Data publicly shared on FigShare by Oliver Keyes, HCDE 512 TA/Instructor.  Released under the CC-BY-SA 4.0 license.
+    Data publicly shared on FigShare by Oliver Keyes, HCDE 512 TA/Instructor.  Released under the CC-BY 4.0 license.
     
-
-Population (Mid-2015) by country data was made available by the PRB (Population Reference Bureau)
+Population (Mid-2015) by country data was made available by the PRB (Population Reference Bureau).  However, 
 
 [Population Mid-2015 Data](http://www.prb.org/DataFinder/Topic/Rankings.aspx?ind=14)
+
+    Copyright © 2016, Population Reference Bureau. All rights reserved.
 
 Article Quality Prediction Data was gathered from the Wikimedia ORES API, Wikimedia Foundation, 2017. 
 
@@ -92,7 +93,6 @@ data-512-a1/
      |- hqa_country_top10.png
   |- imported_data/
      |- page_data.csv
-     |- Population Mid-2015.csv
   |- LICENSE     
   |- README.md
   |- hcds-a2-bias-in-data.ipynb
