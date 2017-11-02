@@ -61,14 +61,14 @@ Below are the columns in order found in the 'final_merged.csv' file:
 column name | value
 --- | ---
 article_name | string
-country | 
+country | string
 revision_id | int
 article_quality | string
-population | string
+population | int
 
 
 
-### Special considerations and Known Issues
+### Special Considerations and Known Issues
 
 - The API call for ORES prediction scores is sped up with several rev_id input values as opposed to one at a time. 
   This can be done by creating one long string of rev_id values with a delimiter in between.
@@ -76,7 +76,6 @@ population | string
 when making calls to ORES, a suggestion is to insert a try/except statement.
 - The entire call (done in 100 rev_id chunks) will take about roughly 3 minutes.  It is recommended to use the Python
 "pickle" package in order to avoid having to re-run the call.
-- 
 
 
 Directory Structure
